@@ -1,4 +1,4 @@
-# No-Distraction-HTML-Homepage
+# No-Distraction-Dark-Mode-HTML-Webpage
 
 Sometimes you just need a blank homepage so you can think and chill-out in between projects. 
 There are two parts to this - 
