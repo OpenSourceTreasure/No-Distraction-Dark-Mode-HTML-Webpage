@@ -32,6 +32,16 @@ How to setup:
 
 7️⃣ Click the homepage icon and enjoy a few moments of quiet thinking..
 
+Here is the HTML if you want to copy and paste it:
+
+```HTML
+<html>
+<link rel="shortcut icon" type="image/x-icon" href="/Users/name/Documents/favicon.ico">
+<head><title>&#65279;</title></head>
+<body bgcolor="black">
+</body>
+</html>
+```
 
 Ideas for forks:
 
