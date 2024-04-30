@@ -43,9 +43,8 @@ Here is the HTML if you want to copy and paste it:
 </html>
 ```
 
-Ideas for forks:
-
-💡 Redirect to HTML pages based on the time of day. Someone may want two sets of links - one for day (work related) and one for night.
+Bonus Section:
+🪄 Redirect to HTML pages based on the time of day. Someone may want two sets of links - one for day (work related) and one for night.
 In the below, you create two additional webpages - index-day.html and index-night.html. The code is currently 
 set to redirect index-day.html between 6am and 7pm (the 6 and 19 variables). No special code needed for the day and night index pages. Change the links 
 as you wish (perhaps to even non-HTML links). An HTML of the below is available for download.
@@ -83,6 +82,8 @@ window.onload = function() {
 </body>
 </html>
 ```
+
+Ideas for forks..
 
 💡 Change the colors.
 
