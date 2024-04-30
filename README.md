@@ -7,6 +7,7 @@ There are two parts to this:
 
 • Favicon
 
+
 The HTML Homepage uses simple code to create a "dark mode" page. It points to a black colored Favicon, so the tab will be in dark mode as well.
 
 How to setup:
@@ -25,6 +26,7 @@ How to setup:
 • Make sure your browser is set to display the homepage icon
 
 • Click the homepage icon and enjoy a few moments of quiet thinking..
+
 
 Ideas for forks:
 
