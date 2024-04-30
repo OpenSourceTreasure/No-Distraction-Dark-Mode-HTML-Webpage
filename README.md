@@ -3,7 +3,10 @@
 Sometimes you just need a blank homepage so you can think and chill-out in between projects. 
 There are two parts to this - 
 
-• Homepage with HTML. In the 
+• HTML Homepage
+• Favicon
+
+The HTML Homepage uses simple code to create a "dark mode" page. It points to a black colored Favicon, so the tab will be in dark mode as well.
 
 How to setup
 1. Decide where you will store the two files (HTML and Favicon). I recommend My Documents.
