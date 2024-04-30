@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+
+<title>Links</title>
+
+</head>
+<body>
+<script type="text/javascript">
+// var SpecialRedirectURL = ['night.html','morning.html','day.html','eve.html'];
+var SpecialRedirectURL = [
+   'index-night.html',
+   'index-day.html'
+];
+
+function specRedirect() {
+  var currentTime = new Date();
+  var currentHour = currentTime.getHours();
+  var Hour = 0;
+  if ( (currentHour >= 6) && (currentHour < 19) ) { Hour = 1; }
+//  alert(Hour+' goes to: '+SpecialRedirectURL[Hour]);
+  window.location.href = SpecialRedirectURL[Hour];
+}  
+
+window.onload = function() {
+  specRedirect(); 
+}
+
+</script>
+</body>
+</html>
