@@ -8,7 +8,7 @@ There are two parts to this:
 ✅ Favicon
 
 
-The HTML Webpage uses simple code to create a "dark mode" page. It points to a black colored Favicon, so the tab will be in dark mode as well. The HTML title, which appears on the browser on the tab, is also blank, with the following code:
+The HTML Webpage uses simple code to create a "dark mode" page. It points to a black colored Favicon, so the tab will be in dark mode as well. The HTML title, which appears on the browser tab, is also blank, with the following code:
 
 ```HTML
 <title>&#65279;</title>
