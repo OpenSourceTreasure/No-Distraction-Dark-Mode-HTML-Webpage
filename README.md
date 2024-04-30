@@ -33,9 +33,9 @@ Ideas for forks:
 
 💡 Display different text (or any content) based on the time. Someone may want a list of links during the day, but a blank page at night.
 
-💡 Change the colors
+💡 Change the colors.
 
-💡 Add minimalist content like the weather
+💡 Add minimalist content like the weather.
 
 💡 Whatever else you can think of..
 
