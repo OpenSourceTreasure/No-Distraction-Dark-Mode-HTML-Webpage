@@ -23,7 +23,7 @@ How to setup:
 
 • In your browser, set the Homepage to the HTML file that you renamed.
 
-• Make sure your browser is set to display the homepage icon
+• Make sure your browser is set to display the homepage icon.
 
 • Click the homepage icon and enjoy a few moments of quiet thinking..
 
