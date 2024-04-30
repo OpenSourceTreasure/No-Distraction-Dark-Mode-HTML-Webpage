@@ -14,9 +14,9 @@ How to setup:
 
 1️⃣ Decide where you will store the two files (HTML and Favicon). I recommend My Documents.
    
-2️⃣ Change the code here to reflect the directory where you will store the Favicon:
+2️⃣ Change the below code in the HTML file to reflect the directory where you will store the Favicon:
 ```HTML
-<link rel="shortcut icon" type="image/x-icon" href="/Users/yourname/Documents/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="/Users/name/Documents/favicon.ico">
 ```
 3️⃣ Put the HTML file in the same directory as the Favicon.
 
