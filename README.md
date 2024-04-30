@@ -45,7 +45,7 @@ Here is the HTML if you want to copy and paste it:
 
 Ideas for forks:
 
-💡 Display different text (or any content) based on the time. Someone may want a list of links during the day, but a blank page at night. 
+💡 Display different text (or any content) based on the time. Someone may want two sets of links - one for the day (work related) and one for night.
 Here is one one to do this. In the below, you create two additional webpages - index-day.html and index-night.html. The code is currently 
 set to index-day.html between 6am and 7pm (the 6 and 19 variables). No special code needed for the day and night index pages. Change the links 
 as you wish (perhaps to even non-HTML links).
