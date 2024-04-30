@@ -20,6 +20,7 @@ How to setup
 7. Click the homepage icon and enjoy a few moments of quiet thinking..
 
 Ideas for forks:
+
 • Display different text (or any content) based on the time. Someone may want a list of links during the day, but a blank page at night.
 
 • Change the colors
