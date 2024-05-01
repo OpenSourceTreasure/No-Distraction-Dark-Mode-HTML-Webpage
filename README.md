@@ -1,6 +1,6 @@
 # No-Distraction-Dark-Mode-HTML-Webpage
 
-Sometimes you just need a blank homepage so you can think and chill out in between projects. The HTML page, Title and Favicon are all in dark mode.
+Sometimes you just need a blank webpage to look at so you can think and chill out in between projects. The HTML page, Title and Favicon are all in dark mode.
 There are two parts to this:
 
 ✅ HTML Webpage
