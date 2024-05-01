@@ -3,7 +3,7 @@
 Sometimes you just need a blank homepage so you can think and chill out in between projects. The HTML page, Title and Favicon are all in dark mode.
 There are two parts to this:
 
-✅ HTML Homepage
+✅ HTML Webpage
 
 ✅ Favicon
 
