@@ -32,6 +32,11 @@ How to setup:
 
 7️⃣ Click the homepage icon and enjoy a few moments of quiet thinking..
 
+
+![screenshot](Zero%20Distraction%20Webpage.png)
+
+https://github.com/OpenSourceTreasure/No-Distraction-Dark-Mode-HTML-Webpage/blob/main/Zero%20Distraction%20Webpage.png
+
 Here is the HTML if you want to copy and paste it:
 
 ```HTML
