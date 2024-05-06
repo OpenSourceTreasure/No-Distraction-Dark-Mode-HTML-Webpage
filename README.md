@@ -34,7 +34,7 @@ How to setup:
 
 
 ![screenshot](Zero%20Distraction%20Webpage.png)
-
+https://github.com/OpenSourceTreasure/No-Distraction-Dark-Mode-HTML-Webpage/blob/main/Zero%20Distraction%20Webpage.png
 Here is the HTML if you want to copy and paste it:
 
 ```HTML
