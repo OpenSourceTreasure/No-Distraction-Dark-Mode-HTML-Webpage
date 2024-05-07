@@ -86,9 +86,9 @@ window.onload = function() {
 </body>
 </html>
 ```
-2️⃣ A dark mode background image for your smartphone. Skip the busy background photo that your apps are covering and go for simplicity! I created an image that is what I believe to be the largest commonly used resolution for smartphones - 3200 x 1440. It should resize perfectly for any smaller resolution as there are no pixels in it - just dark mode black. The below image can be downloaded as well. Rotate it if you need.
+2️⃣ A dark mode wallpaper image for your smartphone. Skip the busy wallpaper photo that your apps are covering and go for simplicity! I created an image that is what I believe to be the largest commonly used resolution for smartphones - 3200 x 1440. It should resize perfectly for any smaller resolution as there are no pixels in it - just dark mode black. The below image can be downloaded as well. Rotate it if you need.
 
-![screenshot](Dark%20Mode%20Phone%20Background.png)
+![screenshot](Dark%20Mode%20Phone%20Wallpaper.png)
 
 Ideas for forks..
 
