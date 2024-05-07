@@ -86,6 +86,10 @@ window.onload = function() {
 </body>
 </html>
 ```
+A dark mode background image for your smartphone. Skip the busy images that your apps are covering and go for simplicity! 
+The below image can be downloaded as well.
+
+![screenshot](No-Distraction-Dark-Mode-HTML-Webpage/blob/main/Dark%20Mode%20Phone%20Background.png)
 
 Ideas for forks..
 
