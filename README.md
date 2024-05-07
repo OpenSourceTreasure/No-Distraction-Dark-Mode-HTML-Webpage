@@ -48,7 +48,7 @@ Here is the HTML if you want to copy and paste it:
 
 ⭐ Bonus Section ⭐ 
 
-Redirect to HTML pages based on the time of day. Someone may want two sets of links - one for day (work related) and one for night.
+1️⃣ Redirect to HTML pages based on the time of day. Someone may want two sets of links - one for day (work related) and one for night.
 In the below, you create two additional webpages - index-day.html and index-night.html. The code is currently 
 set to redirect to index-day.html between 6am and 7pm (the 6 and 19 variables). No special code needed for the day and night index pages. Change the links 
 as you wish (perhaps to even non-HTML links). A downloadable HTML file of the below is available.
@@ -86,7 +86,7 @@ window.onload = function() {
 </body>
 </html>
 ```
-A dark mode background image for your smartphone. Skip the busy images that your apps are covering and go for simplicity! I created the image is what I believe is the largest commonly used resolution for smartphones - 3200 x 1440. It should resize perfectly for any smaller resolution as there are no pixels in it - just dark mode black. The below image can be downloaded as well.
+2️⃣ A dark mode background image for your smartphone. Skip the busy images that your apps are covering and go for simplicity! I created the image is what I believe is the largest commonly used resolution for smartphones - 3200 x 1440. It should resize perfectly for any smaller resolution as there are no pixels in it - just dark mode black. The below image can be downloaded as well.
 
 ![screenshot](Dark%20Mode%20Phone%20Background.png)
 
