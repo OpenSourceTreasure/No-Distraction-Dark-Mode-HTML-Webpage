@@ -48,7 +48,7 @@ Here is the HTML if you want to copy and paste it:
 
 ⭐ Bonus Section ⭐ 
 
-1️⃣ Redirect to HTML pages based on the time of day 
+1️⃣ Redirect to HTML pages based on time of day 
 
 Someone may want two sets of links - one for day (work related) and one for night.
 In the below, you create two additional webpages - index-day.html and index-night.html. The code is currently 
