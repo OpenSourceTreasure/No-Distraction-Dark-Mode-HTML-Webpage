@@ -96,11 +96,13 @@ Skip the busy wallpaper photo that your apps are covering and go for simplicity!
 
 Ideas for forks..
 
-💡 Change the colors.
+💡 Change the colors
 
-💡 Add minimalist content like the weather.
+💡 Add minimalist content like the weather
 
-💡 Whatever else you can think of..
+💡 Have the "time of day" webpage load applications based on time and even if-then statements
+
+💡 Whatever else you can think of
 
 
 Enjoy!
