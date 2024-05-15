@@ -121,7 +121,7 @@ In this version, you decide how long you want to see the blank page and relax. E
     <div id="header">It's time to relax...</div>
     <br> <!-- Line break added here -->
     <div id="inputSection">
-        <input type="number" id="customTime" placeholder="Enter relaxation time (minutes)">
+        <input type="number" id="customTime" placeholder="Enter relaxation time">
         <button id="startButton" onclick="startCountdown()">Start</button>
         <div id="feedback"></div>
     </div>
