@@ -45,6 +45,149 @@ Here is the HTML if you want to copy and paste it:
 </body>
 </html>
 ```
+Countdown Relaxing Timer
+Home Time.html
+
+In this version, you decide how long you want to see the blank page and relax. End the session by clicking stop on the bottom. Below is the code
+
+```HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalist Countdown Timer</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Lato', sans-serif;
+            text-align: center;
+            position: relative;
+            height: 100vh;
+            margin: 0;
+            transition: all 0.3s ease-in-out;
+        }
+
+        #header {
+            font-size: 24px;
+            margin-top: 1em;
+        }
+
+        #customTime {
+            font-family: 'Lato', sans-serif;
+            padding: 10px;
+            border: 1px solid white;
+            background-color: transparent;
+            color: white;
+            margin-top: 1em;
+        }
+
+        #startButton, #stopButton {
+            background-color: transparent;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+
+        #inputSection {
+            display: block;
+            margin-top: 1em;
+        }
+
+        #countdownSection, #stopButton {
+            display: none; /* Hide by default */
+        }
+
+        #stopButton {
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+        }
+
+        #feedback {
+            color: red;
+            margin-top: 10px;
+            display: none; /* Hide by default, shown on invalid input */
+        }
+    </style>
+    <link rel="shortcut icon" type="image/x-icon" href="/Users/name/Documents/favicon.ico">
+</head>
+<body>
+    <div id="header">It's time to relax...</div>
+    <br> <!-- Line break added here -->
+    <div id="inputSection">
+        <input type="number" id="customTime" placeholder="Enter relaxation time (minutes)">
+        <button id="startButton" onclick="startCountdown()">Start</button>
+        <div id="feedback"></div>
+    </div>
+    <div id="countdownSection">
+        <!-- Countdown display goes here -->
+    </div>
+    <button id="stopButton" onclick="stopCountdown()">Stop</button>
+
+    <script>
+        const countdownSection = document.getElementById("countdownSection");
+        const customTimeInput = document.getElementById("customTime");
+        const inputSection = document.getElementById("inputSection");
+        const stopButton = document.getElementById("stopButton");
+        const feedback = document.getElementById('feedback');
+        let intervalId = null;
+
+        function startCountdown() {
+            const relaxationTimeMinutes = parseInt(customTimeInput.value, 10);
+            if (isNaN(relaxationTimeMinutes) || relaxationTimeMinutes <= 0) {
+                feedback.textContent = "Please enter a valid time in minutes.";
+                feedback.style.display = 'block';
+                return;
+            } else {
+                feedback.style.display = 'none';
+            }
+
+            inputSection.style.display = 'none';
+            countdownSection.style.display = 'block';
+            stopButton.style.display = 'block';
+
+            const endTime = Date.now() + relaxationTimeMinutes * 60 * 1000;
+
+            function updateCountdown() {
+                const currentTime = Date.now();
+                const remainingTime = endTime - currentTime;
+
+                if (remainingTime <= 0) {
+                    countdownSection.textContent = "Time's up!";
+                    clearInterval(intervalId);
+                    stopCountdown();
+                    return;
+                }
+
+                const minutes = Math.floor(remainingTime / 60000);
+                const seconds = Math.floor((remainingTime % 60000) / 1000);
+
+                countdownSection.textContent = `Time remaining: ${minutes} min ${seconds} sec`;
+            }
+
+            updateCountdown();
+            intervalId = setInterval(updateCountdown, 1000);
+        }
+
+        function stopCountdown() {
+            clearInterval(intervalId);
+            countdownSection.style.display = 'none';
+            stopButton.style.display = 'none';
+            inputSection.style.display = 'block';
+            customTimeInput.value = '';
+            document.title = "Minimalist Countdown Timer"; // Reset title
+        }
+    </script>
+</body>
+</html>
+```
 
 ⭐ Bonus Section ⭐ 
 
