@@ -49,7 +49,7 @@ Countdown Relaxing Timer
 
 Home Time.html
 
-In this version, you decide how long you want to see the blank page and relax. End the session by clicking stop on the bottom. Below is the code
+In this version, you decide how long you want to see the blank page and relax. End the session by clicking stop on the bottom. Below is the code. The filename is "Home Time.html".
 
 ```HTML
 
