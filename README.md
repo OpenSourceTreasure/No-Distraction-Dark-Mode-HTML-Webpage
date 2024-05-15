@@ -181,7 +181,6 @@ In this version, you decide how long you want to see the blank page and relax. E
             stopButton.style.display = 'none';
             inputSection.style.display = 'block';
             customTimeInput.value = '';
-            document.title = "Minimalist Countdown Timer"; // Reset title
         }
     </script>
 </body>
