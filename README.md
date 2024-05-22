@@ -56,6 +56,7 @@ Here is the HTML if you want to copy and paste it:
 </head>
 <body bgcolor="black">
 </body>
+</html>
 ```
 
 Relaxing Countdown Timer
