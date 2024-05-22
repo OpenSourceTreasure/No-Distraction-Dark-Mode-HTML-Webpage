@@ -45,6 +45,19 @@ Here is the HTML if you want to copy and paste it:
 </body>
 </html>
 ```
+
+🌟 In this version, the favicon image is embedded in the HTML via Base64. The filename is No Distraction Webpage - Base64 Favicon.html. The code is below:
+
+```HTML
+<html>
+<head>
+    <link rel="shortcut icon" href="data:image/png;base64,AAABAAEAEBACAAEAAQCwAAAAFgAAACgAAAAQAAAAIAAAAAEAAQAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA">
+    <title>&#65279;</title>
+</head>
+<body bgcolor="black">
+</body>
+```
+
 Relaxing Countdown Timer
 
 In this version, you decide how long you want to see the blank page and relax. End the session by clicking stop on the bottom. Below is the code. The filename is "Home Time.html".
